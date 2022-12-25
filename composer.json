@@ -1,0 +1,20 @@
+{
+    "name": "aldearco/arco-project",
+    "description": "Arco Framework project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app"
+        }
+    },
+    "authors": [
+        {
+            "name": "aldearco",
+            "email": "albertodelarco@outlook.com"
+        }
+    ],
+    "require": {
+        "aldearco/arco": "^0.1.0"
+    }
+}
