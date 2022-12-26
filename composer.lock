@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aldearco/arco-framework",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aldearco/arco-framework.git",
-                "reference": "2cfcc774d6034a1d94c0f2ad2be079a20e64a19f"
+                "reference": "a0a36611e83de1c3efc7b3d4e62a2aea6e3d4be6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aldearco/arco-framework/zipball/2cfcc774d6034a1d94c0f2ad2be079a20e64a19f",
-                "reference": "2cfcc774d6034a1d94c0f2ad2be079a20e64a19f",
+                "url": "https://api.github.com/repos/aldearco/arco-framework/zipball/a0a36611e83de1c3efc7b3d4e62a2aea6e3d4be6",
+                "reference": "a0a36611e83de1c3efc7b3d4e62a2aea6e3d4be6",
                 "shasum": ""
             },
             "require": {
@@ -54,9 +54,9 @@
             "description": "Simple PHP framework inspired by Laravel",
             "support": {
                 "issues": "https://github.com/aldearco/arco-framework/issues",
-                "source": "https://github.com/aldearco/arco-framework/tree/v0.1.0"
+                "source": "https://github.com/aldearco/arco-framework/tree/v0.1.1"
             },
-            "time": "2022-12-25T14:38:53+00:00"
+            "time": "2022-12-26T13:32:17+00:00"
         },
         {
             "name": "graham-campbell/result-type",
