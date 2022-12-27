@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cef8fc11c536b2396567c7531b489209",
+    "content-hash": "cb975a3701d97d86b4d33f501f686c49",
     "packages": [
         {
             "name": "aldearco/arco-framework",
-            "version": "v0.1.2",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aldearco/arco-framework.git",
-                "reference": "73399889d4c2ec91c831b86a89ee5d1ab16b73fd"
+                "reference": "9331d70cbe3fabff24f16cba2a5f31db578de72d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aldearco/arco-framework/zipball/73399889d4c2ec91c831b86a89ee5d1ab16b73fd",
-                "reference": "73399889d4c2ec91c831b86a89ee5d1ab16b73fd",
+                "url": "https://api.github.com/repos/aldearco/arco-framework/zipball/9331d70cbe3fabff24f16cba2a5f31db578de72d",
+                "reference": "9331d70cbe3fabff24f16cba2a5f31db578de72d",
                 "shasum": ""
             },
             "require": {
@@ -54,9 +54,9 @@
             "description": "Simple PHP framework inspired by Laravel",
             "support": {
                 "issues": "https://github.com/aldearco/arco-framework/issues",
-                "source": "https://github.com/aldearco/arco-framework/tree/v0.1.2"
+                "source": "https://github.com/aldearco/arco-framework/tree/v0.1.3"
             },
-            "time": "2022-12-26T14:22:41+00:00"
+            "time": "2022-12-27T19:21:24+00:00"
         },
         {
             "name": "graham-campbell/result-type",

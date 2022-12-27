@@ -1,6 +1,6 @@
 {
     "name": "aldearco/arco",
-    "description": "Arco Framework project",
+    "description": "Arco Framework Project",
     "type": "project",
     "license": "MIT",
     "autoload": {
@@ -15,6 +15,6 @@
         }
     ],
     "require": {
-        "aldearco/arco-framework": "^0.1.2"
+        "aldearco/arco-framework": "^0.1.3"
     }
 }
