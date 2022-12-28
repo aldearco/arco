@@ -10,6 +10,7 @@
           </div>
           <div class="card-body">
             <form method="post">
+              @csrf
               <div class="mb-3">
                 <label class="email">Email</label>
                 <input name="email" type="text" value="<?= old("email") ?>" class="form-control">
