@@ -1,9 +1,9 @@
 <img src="https://raw.githubusercontent.com/aldearco/arco/main/public/assets/img/arco-logo-color.svg" width="100" alt="Arco Framework Icon">
 
 # Arco Framework
-<a href="https://packagist.org/packages/aldearco/arco-framework"><img src="https://img.shields.io/packagist/dt/aldearco/arco-framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/aldearco/arco-framework"><img src="https://img.shields.io/packagist/v/aldearco/arco-framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/aldearco/arco-framework"><img src="https://img.shields.io/packagist/l/aldearco/arco-framework" alt="License"></a>
+<a href="https://packagist.org/packages/aldearco/arco"><img src="https://img.shields.io/packagist/dt/aldearco/arco" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/aldearco/arco"><img src="https://img.shields.io/packagist/v/aldearco/arco" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/aldearco/arco"><img src="https://img.shields.io/packagist/l/aldearco/arco" alt="License"></a>
 
 This framework is inspired by Laravel and in no way wants to compete against Laravel.
 
