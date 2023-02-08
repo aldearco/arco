@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
 use App\Models\User;
 use Arco\Http\Request;
 use Arco\Crypto\Hasher;
-use Arco\Http\Controller;
+use App\Http\Controllers\Controller;
 
 class RegisterController extends Controller {
     public function create() {
@@ -19,21 +19,22 @@ class RegisterController extends Controller {
             "password" => "required",
             "confirm_password" => "required",
         ]);
-    
-        if($data["password"] !== $data["confirm_password"]) {
-            return back()->withErrors([
+
+        if ($data["password"] !== $data["confirm_password"]) {
+            return back()->withErrors(
+                [
                 "confirm_password" => [
                     "confirm" => "Passwords do not match"]
                 ]
             );
         }
-    
+
         $data["password"] = $hasher->hash($data["password"]);
-    
+
         $user = User::create($data);
 
         $user->login();
-    
+
         return redirect("/");
     }
 }

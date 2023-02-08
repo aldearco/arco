@@ -6,17 +6,13 @@ use Arco\Database\Migrations\Migration;
 
 return new class() implements Migration {
     public function up() {
-        Migrator::create('users', function (TableCrafter $table) {
+        Migrator::create('$TABLE', function (TableCrafter $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email', uuid: true);
-            $table->string('password');
-            $table->rememberToken();
             $table->timestamps();
         });
     }
 
     public function down() {
-        Migrator::dropIfExists('users');
+        Migrator::dropIfExists('$TABLE');
     }
 };
